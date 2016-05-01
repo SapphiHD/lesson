@@ -1,0 +1,41 @@
+
+span.red{
+	background-color:red;border-radius:6px;color:white;margin-right:10px;
+}
+span.green{
+	background-color:green;border-radius:6px;color:white;margin-right:10px;
+}
+span.blue{
+	background-color:blue;border-radius:6px;color:white;margin-right:10px; 
+}
+input[type="checkbox"]{
+	display:none;
+}
+
+input[type="checkbox"]#red ~ label[for="red"]{
+	color: red;
+	margin-right:20px;
+	text-decoration:underline;
+}
+input[type="checkbox"]#green ~ label[for="green"]{
+	color: green;
+	margin-right:20px;
+	text-decoration:underline;
+}
+input[type="checkbox"]#blue ~ label[for="blue"]{
+	color: blue;
+	margin-right:20px;
+	text-decoration:underline;
+}
+input[type="checkbox"]#red:checked ~ span.red
+{
+	display:none;
+}
+input[type="checkbox"]#green:checked ~ span.green
+{
+	display:none;
+}
+input[type="checkbox"]#blue:checked ~ span.blue
+{
+	display:none;
+}

@@ -1,0 +1,25 @@
+span{
+	display:inline-block;
+	font-family: Economica;
+	color:#a64dff;
+	font-size:30px;
+}
+span.past:before{
+	content:"«";
+}
+span.future:after{
+	content:"»";
+}
+span.number{
+	border:1px solid black;
+	border-radius: 7px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	margin-left:5px;
+	margin-right:5px;
+}
+span.number:hover{
+	color:white;
+	background:#a64dff;
+}

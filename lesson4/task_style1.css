@@ -1,0 +1,23 @@
+div{
+	box-sizing:border-box;
+	width: 900px;
+	margin:auto;
+	margin-top:300px;
+	background:#a64dff;
+	padding-left:60px;
+
+}
+span{
+	height:30px;
+	width:70px;
+	display:inline-block;
+	font-family: Economica;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	line-height:30px;
+}
+span:hover{
+	background: #eeeeee;
+	color:#a0a0a0;
+}

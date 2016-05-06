@@ -2,7 +2,6 @@ div{
 	box-sizing:border-box;
 	width: 900px;
 	margin:auto;
-	margin-top:300px;
 	background:#a64dff;
 	padding-left:60px;
 
@@ -20,4 +19,12 @@ span{
 span:hover{
 	background: #eeeeee;
 	color:#a0a0a0;
+}
+div.later{
+    background:#eeeeee;
+    padding-left:60px;
+}
+span.niz{
+    color:#a0a0a0;
+    
 }

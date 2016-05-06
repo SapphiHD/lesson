@@ -1,4 +1,46 @@
-span{
+div{
+	margin:auto;
+	margin-top:400px; 
+	width: 900px;
+	/*background:#D8D8D8;*/
+	font-family: Economica;
+	color:#a64dff;
+	font-size: 21px;
+}
+span.past:before{
+	content:"«";
+}
+span.future:after{
+	content:"»";
+}
+span.number{
+	display: inline-block;
+	border: 1px solid black;
+	width: 27px;
+	height: 27px;
+	border-radius: 5px;
+	text-align: center;
+}
+span.number_no{
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	text-align: center;
+}
+span.past:hover{
+	background:#a64dff;
+	color:white;
+}
+span.number:hover{
+	background:#a64dff;
+	color:white;
+}
+span.future:hover{
+	background:#a64dff;
+	color:white;
+}
+
+/*span{
 	display:inline-block;
 	font-family: Economica;
 	color:#a64dff;
